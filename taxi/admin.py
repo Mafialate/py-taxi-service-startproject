@@ -22,7 +22,7 @@ class CarAdmin(admin.ModelAdmin):
         "model",
         "manufacturer",
     )
-    search_fields = ("manufacturer__name",)
+    search_fields = ("model",)
 
 
 admin.site.register(Manufacturer)
